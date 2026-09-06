@@ -19,6 +19,11 @@ private class DiscordDisconnected : Exception()
 
 private const val ReconnectDelayMs = 15_000L
 
+// Small play/pause badge shown in the bottom-right of the poster. External PNGs
+// (pinned so the URLs stay stable); Discord proxies them like the large image.
+private const val PlayIconUrl = "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.047/png/128/emoji_u25b6.png"
+private const val PauseIconUrl = "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.047/png/128/emoji_u23f8.png"
+
 internal object DiscordPresenceManager {
     private val log = Logger.withTag("DiscordPresenceManager")
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
@@ -107,7 +112,13 @@ private fun PresenceSnapshot.toDiscordActivity(): DiscordActivity = when (this) 
             } else {
                 null
             },
-            assets = posterUrl?.let { DiscordActivityAssets(largeImage = it, largeText = title) },
+            assets = DiscordActivityAssets(
+                largeImage = posterUrl,
+                largeText = posterUrl?.let { title },
+                // Play/pause badge in the bottom-right corner of the poster.
+                smallImage = if (isPlaying) PlayIconUrl else PauseIconUrl,
+                smallText = if (isPlaying) "Playing" else "Paused",
+            ),
         )
     }
 }
