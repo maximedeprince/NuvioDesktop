@@ -22,6 +22,7 @@ import nuvio.composeapp.generated.resources.compose_nav_home
 import nuvio.composeapp.generated.resources.compose_nav_library
 import nuvio.composeapp.generated.resources.compose_nav_search
 import nuvio.composeapp.generated.resources.compose_nav_settings
+import nuvio.composeapp.generated.resources.compose_player_playing
 import nuvio.composeapp.generated.resources.discord_presence_browsing_app
 import nuvio.composeapp.generated.resources.discord_presence_browsing_section
 import nuvio.composeapp.generated.resources.discord_presence_paused
@@ -40,6 +41,12 @@ private const val WatchingActivityType = 3
 
 // Product name, deliberately not translated: it is what the Discord application is registered as.
 private const val AppName = "Nuvio"
+
+// Small play/pause badge drawn over the bottom-right corner of the poster. Discord proxies these
+// PNGs the same way it proxies the poster URL used as the large image. Once the Nuvio Discord
+// application has its own art assets uploaded, swap these two URLs for the asset keys.
+private const val PlayIconUrl = "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.047/png/128/emoji_u25b6.png"
+private const val PauseIconUrl = "https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.047/png/128/emoji_u23f8.png"
 
 internal object DiscordPresenceManager {
     private val log = Logger.withTag("DiscordPresenceManager")
@@ -162,7 +169,16 @@ private suspend fun PresenceSnapshot.toDiscordActivity(): DiscordActivity = when
             } else {
                 null
             },
-            assets = posterUrl?.let { DiscordActivityAssets(largeImage = it, largeText = title) },
+            assets = DiscordActivityAssets(
+                largeImage = posterUrl,
+                largeText = posterUrl?.let { title },
+                smallImage = if (isPlaying) PlayIconUrl else PauseIconUrl,
+                smallText = if (isPlaying) {
+                    getString(Res.string.compose_player_playing)
+                } else {
+                    getString(Res.string.discord_presence_paused)
+                },
+            ),
         )
     }
 }

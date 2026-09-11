@@ -30,4 +30,7 @@ internal data class DiscordActivityTimestamps(
 internal data class DiscordActivityAssets(
     @SerialName("large_image") val largeImage: String? = null,
     @SerialName("large_text") val largeText: String? = null,
+    // Small badge overlaid on the bottom-right of the large image (e.g. a play/pause icon).
+    @SerialName("small_image") val smallImage: String? = null,
+    @SerialName("small_text") val smallText: String? = null,
 )
