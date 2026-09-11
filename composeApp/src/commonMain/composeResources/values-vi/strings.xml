@@ -1971,4 +1971,9 @@
     <string name="settings_card_depth_surface_cast">Diễn viên</string>
     <string name="store_empty_unavailable_title">Chưa có nội dung</string>
     <string name="store_empty_unavailable_message">Các addon hiện tại không cung cấp nội dung cho mục này</string>
+    <string name="discord_presence_browsing_app">Đang duyệt %1$s</string>
+    <string name="discord_presence_browsing_section">Đang duyệt: %1$s</string>
+    <string name="discord_presence_viewing">Đang xem %1$s</string>
+    <string name="discord_presence_paused">Đã tạm dừng</string>
+    <string name="discord_presence_paused_episode">%1$s • Đã tạm dừng</string>
 </resources>

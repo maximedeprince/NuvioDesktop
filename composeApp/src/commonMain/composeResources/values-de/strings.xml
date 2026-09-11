@@ -1232,4 +1232,9 @@
     </plurals>
     <string name="cw_new_episode">Neue Folge</string>
     <string name="cw_new_season">Neue Staffel</string>
+    <string name="discord_presence_browsing_app">Stöbert in %1$s</string>
+    <string name="discord_presence_browsing_section">Stöbern: %1$s</string>
+    <string name="discord_presence_viewing">Sieht sich %1$s an</string>
+    <string name="discord_presence_paused">Pausiert</string>
+    <string name="discord_presence_paused_episode">%1$s • Pausiert</string>
 </resources>

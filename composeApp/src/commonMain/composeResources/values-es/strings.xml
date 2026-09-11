@@ -2223,4 +2223,9 @@ Utilizas esta función bajo tu propia responsabilidad. P2P se puede desactivar e
         <item quantity="one">%d título</item>
         <item quantity="other">%d títulos</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Explorando %1$s</string>
+    <string name="discord_presence_browsing_section">Explorando: %1$s</string>
+    <string name="discord_presence_viewing">Viendo %1$s</string>
+    <string name="discord_presence_paused">Pausado</string>
+    <string name="discord_presence_paused_episode">%1$s • Pausado</string>
 </resources>

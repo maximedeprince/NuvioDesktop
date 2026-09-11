@@ -2218,4 +2218,9 @@
         <item quantity="one">%d τίτλος</item>
         <item quantity="other">%d τίτλοι</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Περιήγηση σε %1$s</string>
+    <string name="discord_presence_browsing_section">Περιήγηση: %1$s</string>
+    <string name="discord_presence_viewing">Προβολή %1$s</string>
+    <string name="discord_presence_paused">Σε παύση</string>
+    <string name="discord_presence_paused_episode">%1$s • Σε παύση</string>
 </resources>

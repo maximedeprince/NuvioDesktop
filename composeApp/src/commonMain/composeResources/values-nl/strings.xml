@@ -2148,4 +2148,9 @@
         <item quantity="one">%d titel</item>
         <item quantity="other">%d titels</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Bladert door %1$s</string>
+    <string name="discord_presence_browsing_section">Bladeren: %1$s</string>
+    <string name="discord_presence_viewing">Bekijkt %1$s</string>
+    <string name="discord_presence_paused">Gepauzeerd</string>
+    <string name="discord_presence_paused_episode">%1$s • Gepauzeerd</string>
 </resources>

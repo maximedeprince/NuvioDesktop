@@ -1386,4 +1386,9 @@
         <item quantity="one">Om %d dag</item>
         <item quantity="other">Om %d dager</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Blar i %1$s</string>
+    <string name="discord_presence_browsing_section">Utforsker: %1$s</string>
+    <string name="discord_presence_viewing">Viser %1$s</string>
+    <string name="discord_presence_paused">Pauset</string>
+    <string name="discord_presence_paused_episode">%1$s • Pauset</string>
 </resources>

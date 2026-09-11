@@ -1950,4 +1950,9 @@
   <string name="entity_browse_about">Informazioni</string>
   <string name="player_external_loading_subtitles">Caricamento sottotitoli dagli addon...</string>
   <string name="player_external_downloading_subtitles">Download dei sottotitoli...</string>
+  <string name="discord_presence_browsing_app">Esplorando %1$s</string>
+  <string name="discord_presence_browsing_section">Esplorazione: %1$s</string>
+  <string name="discord_presence_viewing">Visualizza %1$s</string>
+  <string name="discord_presence_paused">In pausa</string>
+  <string name="discord_presence_paused_episode">%1$s • In pausa</string>
 </resources>

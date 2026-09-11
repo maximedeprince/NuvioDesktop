@@ -2251,4 +2251,9 @@
         <item quantity="many">%d названий</item>
         <item quantity="other">%d названия</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Просматривает %1$s</string>
+    <string name="discord_presence_browsing_section">Просмотр: %1$s</string>
+    <string name="discord_presence_viewing">Изучает %1$s</string>
+    <string name="discord_presence_paused">Приостановлено</string>
+    <string name="discord_presence_paused_episode">%1$s • Приостановлено</string>
 </resources>

@@ -2133,4 +2133,9 @@
     <string name="player_torrent_preparing_stream">Torrent stream előkészítése...</string>
     <string name="player_torrent_connecting_status">%1$s · %2$s · %3$s</string>
     <string name="player_torrent_loading_status">%1$s letöltve · %2$s · %3$s</string>
+    <string name="discord_presence_browsing_app">%1$s böngészése</string>
+    <string name="discord_presence_browsing_section">Böngészés: %1$s</string>
+    <string name="discord_presence_viewing">%1$s megtekintése</string>
+    <string name="discord_presence_paused">Szüneteltetve</string>
+    <string name="discord_presence_paused_episode">%1$s • Szüneteltetve</string>
 </resources>

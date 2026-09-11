@@ -565,6 +565,11 @@
     <string name="settings_advanced_sentry_reports_subtitle_desktop">Send crash reports with safe diagnostic context. On by default.</string>
     <string name="settings_advanced_discord_rich_presence">Discord Rich Presence</string>
     <string name="settings_advanced_discord_rich_presence_description">Show what you're browsing or watching on your Discord profile. Off by default.</string>
+    <string name="discord_presence_browsing_app">Browsing %1$s</string>
+    <string name="discord_presence_browsing_section">Browsing: %1$s</string>
+    <string name="discord_presence_viewing">Viewing %1$s</string>
+    <string name="discord_presence_paused">Paused</string>
+    <string name="discord_presence_paused_episode">%1$s • Paused</string>
     <string name="sentry_enable_dialog_title">Turn on crash reports?</string>
     <string name="sentry_enable_dialog_subtitle">Crash reports help identify device-specific failures without asking you to reproduce the issue with ADB logs.</string>
     <string name="sentry_enable_dialog_subtitle_desktop">Crash reports help identify Windows and macOS failures without asking you to collect logs manually.</string>

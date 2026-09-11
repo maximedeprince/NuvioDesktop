@@ -1937,4 +1937,9 @@
         <item quantity="one">%d titlu</item>
         <item quantity="other">%d titluri</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Navighează în %1$s</string>
+    <string name="discord_presence_browsing_section">Navigare: %1$s</string>
+    <string name="discord_presence_viewing">Vizualizează %1$s</string>
+    <string name="discord_presence_paused">Pus pe pauză</string>
+    <string name="discord_presence_paused_episode">%1$s • Pus pe pauză</string>
 </resources>

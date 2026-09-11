@@ -1453,4 +1453,9 @@
     <plurals name="cw_airs_in_days_short">
         <item quantity="other">%1$d hari lagi</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Menjelajahi %1$s</string>
+    <string name="discord_presence_browsing_section">Menjelajahi: %1$s</string>
+    <string name="discord_presence_viewing">Melihat %1$s</string>
+    <string name="discord_presence_paused">Dijeda</string>
+    <string name="discord_presence_paused_episode">%1$s • Dijeda</string>
 </resources>

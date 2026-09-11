@@ -1357,4 +1357,9 @@
     <string name="unit_bytes_kb">KB</string>
     <string name="unit_bytes_mb">MB</string>
     <string name="unit_bytes_gb">GB</string>
+    <string name="discord_presence_browsing_app">Explorando %1$s</string>
+    <string name="discord_presence_browsing_section">Explorando: %1$s</string>
+    <string name="discord_presence_viewing">Consultando %1$s</string>
+    <string name="discord_presence_paused">Pausado</string>
+    <string name="discord_presence_paused_episode">%1$s • Pausado</string>
 </resources>

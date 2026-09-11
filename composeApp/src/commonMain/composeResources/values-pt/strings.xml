@@ -1857,4 +1857,9 @@
     <string name="player_torrent_starting_engine">A iniciar motor P2P…</string>
     <string name="player_error_failed_start_torrent">Falha ao iniciar o torrent: %1$s</string>
     <string name="player_error_torrent">Erro de torrent: %1$s</string>
+    <string name="discord_presence_browsing_app">A explorar %1$s</string>
+    <string name="discord_presence_browsing_section">A explorar: %1$s</string>
+    <string name="discord_presence_viewing">A consultar %1$s</string>
+    <string name="discord_presence_paused">Em pausa</string>
+    <string name="discord_presence_paused_episode">%1$s • Em pausa</string>
 </resources>

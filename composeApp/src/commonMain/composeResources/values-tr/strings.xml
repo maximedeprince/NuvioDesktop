@@ -2156,4 +2156,9 @@ Bu özelliği tamamen kendi sorumluluğunuzda kullanırsınız. P2P istediğiniz
         <item quantity="one">%d başlık</item>
         <item quantity="other">%d başlık</item>
     </plurals>
+    <string name="discord_presence_browsing_app">%1$s içinde geziniyor</string>
+    <string name="discord_presence_browsing_section">Geziniyor: %1$s</string>
+    <string name="discord_presence_viewing">%1$s sayfasında</string>
+    <string name="discord_presence_paused">Duraklatıldı</string>
+    <string name="discord_presence_paused_episode">%1$s • Duraklatıldı</string>
 </resources>

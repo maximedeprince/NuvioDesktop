@@ -1994,4 +1994,9 @@
         <item quantity="many">%d tytułów</item>
         <item quantity="other">%d tytułów</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Przegląda %1$s</string>
+    <string name="discord_presence_browsing_section">Przeglądanie: %1$s</string>
+    <string name="discord_presence_viewing">Ogląda %1$s</string>
+    <string name="discord_presence_paused">Wstrzymane</string>
+    <string name="discord_presence_paused_episode">%1$s • Wstrzymane</string>
 </resources>

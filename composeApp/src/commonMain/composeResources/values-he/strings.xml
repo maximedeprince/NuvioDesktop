@@ -729,4 +729,9 @@
     <string name="entity_browse_type">סוג</string>
     <string name="entity_browse_catalogue">קטלוג</string>
     <string name="entity_browse_about">אודות</string>
+    <string name="discord_presence_browsing_app">מעיין ב-%1$s</string>
+    <string name="discord_presence_browsing_section">עיון: %1$s</string>
+    <string name="discord_presence_viewing">מציג את %1$s</string>
+    <string name="discord_presence_paused">מושהה</string>
+    <string name="discord_presence_paused_episode">%1$s • מושהה</string>
 </resources>

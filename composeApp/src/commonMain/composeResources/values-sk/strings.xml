@@ -2133,4 +2133,9 @@
     <string name="library_simkl_empty_title">Váš zoznam sledovania Simkl je prázdny</string>
     <string name="library_simkl_load_failed">Nepodarilo sa načítať zoznam sledovania Simkl</string>
     <string name="library_simkl_title">Zoznam sledovania Simkl</string>
+    <string name="discord_presence_browsing_app">Prehliada %1$s</string>
+    <string name="discord_presence_browsing_section">Prehliadanie: %1$s</string>
+    <string name="discord_presence_viewing">Prezerá %1$s</string>
+    <string name="discord_presence_paused">Pozastavené</string>
+    <string name="discord_presence_paused_episode">%1$s • Pozastavené</string>
 </resources>

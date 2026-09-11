@@ -1979,4 +1979,9 @@
         <item quantity="one">%d titre</item>
         <item quantity="other">%d titres</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Navigue dans %1$s</string>
+    <string name="discord_presence_browsing_section">Navigation : %1$s</string>
+    <string name="discord_presence_viewing">Consulte %1$s</string>
+    <string name="discord_presence_paused">En pause</string>
+    <string name="discord_presence_paused_episode">%1$s • En pause</string>
 </resources>

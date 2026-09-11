@@ -2245,4 +2245,9 @@
         <item quantity="one">%d заглавие</item>
         <item quantity="other">%d заглавия</item>
     </plurals>
+    <string name="discord_presence_browsing_app">Разглежда %1$s</string>
+    <string name="discord_presence_browsing_section">Разглеждане: %1$s</string>
+    <string name="discord_presence_viewing">Преглежда %1$s</string>
+    <string name="discord_presence_paused">Паузирано</string>
+    <string name="discord_presence_paused_episode">%1$s • Паузирано</string>
 </resources>
