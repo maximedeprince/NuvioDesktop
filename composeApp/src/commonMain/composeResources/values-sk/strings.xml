@@ -326,6 +326,7 @@
     <string name="compose_nav_library">Knižnica</string>
     <string name="compose_nav_profile">Profil</string>
     <string name="compose_nav_search">Hľadať</string>
+    <string name="compose_nav_settings">Nastavenia</string>
     <string name="compose_player_audio_tracks">Zvukové stopy</string>
     <string name="compose_player_audio">Zvuk</string>
     <string name="compose_player_auto_sync">Automatická synchronizácia</string>

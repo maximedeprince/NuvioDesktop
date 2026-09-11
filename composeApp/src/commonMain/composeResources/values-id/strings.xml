@@ -317,6 +317,7 @@
     <string name="compose_nav_library">Pustaka</string>
     <string name="compose_nav_profile">Profil</string>
     <string name="compose_nav_search">Pencarian</string>
+    <string name="compose_nav_settings">Pengaturan</string>
     <string name="compose_player_audio_tracks">Trek Audio</string>
     <string name="compose_player_audio">Audio</string>
     <string name="compose_player_auto_sync">Sinkronisasi Otomatis</string>

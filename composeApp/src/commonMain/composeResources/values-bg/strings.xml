@@ -413,6 +413,7 @@
     <string name="compose_nav_library">Библиотека</string>
     <string name="compose_nav_profile">Профил</string>
     <string name="compose_nav_search">Търси</string>
+    <string name="compose_nav_settings">Настройки</string>
     <string name="compose_player_audio_tracks">Аудио записи</string>
     <string name="compose_player_audio">Аудио</string>
     <string name="compose_player_auto_sync">Автоматична синхронизация</string>

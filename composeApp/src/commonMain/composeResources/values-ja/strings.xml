@@ -336,6 +336,7 @@
     <string name="compose_nav_library">ライブラリ</string>
     <string name="compose_nav_profile">プロフィール</string>
     <string name="compose_nav_search">検索</string>
+    <string name="compose_nav_settings">設定</string>
     <string name="compose_player_audio_tracks">音声トラック</string>
     <string name="compose_player_audio">音声</string>
     <string name="compose_player_auto_sync">自動同期</string>

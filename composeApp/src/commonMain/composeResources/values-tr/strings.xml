@@ -338,6 +338,7 @@
     <string name="compose_nav_library">Kitaplık</string>
     <string name="compose_nav_profile">Profil</string>
     <string name="compose_nav_search">Ara</string>
+    <string name="compose_nav_settings">Ayarlar</string>
     <string name="compose_player_audio_tracks">Ses parçaları</string>
     <string name="compose_player_audio">Ses</string>
     <string name="compose_player_auto_sync">Otomatik Senkronizasyon</string>

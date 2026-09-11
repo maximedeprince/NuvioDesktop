@@ -149,6 +149,7 @@
   <string name="compose_nav_library">Libreria</string>
   <string name="compose_nav_profile">Profilo</string>
   <string name="compose_nav_search">Cerca</string>
+  <string name="compose_nav_settings">Impostazioni</string>
   <string name="compose_player_audio_tracks">Tracce audio</string>
   <string name="compose_player_audio">Audio</string>
   <string name="compose_player_auto_sync">Auto Sync</string>

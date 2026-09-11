@@ -351,6 +351,7 @@
     <string name="compose_nav_library">المكتبة</string>
     <string name="compose_nav_profile">الملف الشخصي</string>
     <string name="compose_nav_search">بحث</string>
+    <string name="compose_nav_settings">الإعدادات</string>
     <string name="compose_player_audio_tracks">المسارات الصوتية</string>
     <string name="compose_player_audio">الصوت</string>
     <string name="compose_player_auto_sync">مزامنة تلقائية</string>

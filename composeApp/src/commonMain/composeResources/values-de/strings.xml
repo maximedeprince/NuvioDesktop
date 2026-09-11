@@ -300,6 +300,7 @@
     <string name="compose_nav_library">Bibliothek</string>
     <string name="compose_nav_profile">Profil</string>
     <string name="compose_nav_search">Suche</string>
+    <string name="compose_nav_settings">Einstellungen</string>
     <string name="compose_player_audio_tracks">Tonspuren</string>
     <string name="compose_player_audio">Audio</string>
     <string name="compose_player_built_in">Integriert</string>

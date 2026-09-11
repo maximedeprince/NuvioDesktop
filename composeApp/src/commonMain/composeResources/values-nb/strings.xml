@@ -315,6 +315,7 @@
     <string name="compose_nav_library">Bibliotek</string>
     <string name="compose_nav_profile">Profil</string>
     <string name="compose_nav_search">Søk</string>
+    <string name="compose_nav_settings">Innstillinger</string>
     <string name="compose_player_audio_tracks">Lydspor</string>
     <string name="compose_player_audio">Lyd</string>
     <string name="compose_player_built_in">Innebygd</string>

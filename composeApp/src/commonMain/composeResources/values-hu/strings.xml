@@ -309,6 +309,7 @@
     <string name="compose_nav_library">Könyvtár</string>
     <string name="compose_nav_profile">Profil</string>
     <string name="compose_nav_search">Keresés</string>
+    <string name="compose_nav_settings">Beállítások</string>
     <string name="compose_player_audio_tracks">Hangsávok</string>
     <string name="compose_player_audio">Hang</string>
     <string name="compose_player_built_in">Beépített</string>

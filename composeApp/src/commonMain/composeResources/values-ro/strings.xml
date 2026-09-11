@@ -336,6 +336,7 @@
     <string name="compose_nav_library">Bibliotecă</string>
     <string name="compose_nav_profile">Profil</string>
     <string name="compose_nav_search">Caută</string>
+    <string name="compose_nav_settings">Setări</string>
     <string name="compose_player_audio_tracks">Piste audio</string>
     <string name="compose_player_audio">Audio</string>
     <string name="compose_player_auto_sync">Sincronizare automată</string>

@@ -338,6 +338,7 @@
     <string name="compose_nav_library">Bibliotheek</string>
     <string name="compose_nav_profile">Profiel</string>
     <string name="compose_nav_search">Zoeken</string>
+    <string name="compose_nav_settings">Instellingen</string>
     <string name="compose_player_audio_tracks">Audiosporen</string>
     <string name="compose_player_audio">Audio</string>
     <string name="compose_player_auto_sync">Automatische synchronisatie</string>
